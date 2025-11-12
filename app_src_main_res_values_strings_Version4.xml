@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Maze Velocity</string>
+    <string name="vehicle_select_title">Select Your Vehicle or Character</string>
+    <string name="toggle_vehicle">Vehicle</string>
+    <string name="toggle_character">Character</string>
+    <string name="mode_maze">Maze Mode</string>
+    <string name="mode_chase">Chase Mode</string>
+    <string name="mode_pursuit">Pursuit Mode</string>
+    <string name="unlock_desc_sport">Unlock at level 10</string>
+    <string name="unlock_desc_chase">Unlock by winning a chase</string>
+    <string name="unlock_desc_pursuit">Unlock by winning a pursuit</string>
+    <string name="unlock_desc_default">Unlocked by default</string>
+</resources>
