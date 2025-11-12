@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default application theme inherits from Theme.MazeVelocity -->
+    <style name="AppTheme" parent="Theme.MazeVelocity" />
+
+    <!-- Text styles for headings/labels -->
+    <style name="HeadingText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="VehicleNameText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+
+    <style name="UnlockDescText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

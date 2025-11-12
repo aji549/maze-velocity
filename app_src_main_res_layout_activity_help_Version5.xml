@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help & Instructions"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Maze Velocity!\n\n• Use the on-screen controls to steer your vehicle or character through dynamic mazes.\n• Unlock new vehicles or runner icons as you progress.\n• Switch game modes for different challenges: Maze, Chase, Pursuit.\n• Visit Settings to adjust music, sound, and reset your progress.\n• Need help or want tips? Check here or reach out to the dev community!"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingBottom="24dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:onClick="finish" />
+
+    </LinearLayout>
+</ScrollView>

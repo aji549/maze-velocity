@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:paddingBottom="20dp" />
+
+    <Switch
+        android:id="@+id/music_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:checked="true"
+        android:paddingBottom="12dp" />
+
+    <Switch
+        android:id="@+id/sfx_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Effects"
+        android:checked="true"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/reset_progress_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Progress"
+        android:paddingTop="24dp" />
+</LinearLayout>
