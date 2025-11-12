@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/vehicle_select_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_select_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:paddingBottom="24dp"
+        style="@style/HeadingText"/>
+
+    <ImageView
+        android:id="@+id/vehicle_icon"
+        android:layout_width="@dimen/vehicle_icon_size"
+        android:layout_height="@dimen/vehicle_icon_size"
+        android:src="@drawable/car3"
+        android:contentDescription="@string/vehicle_select_title" />
+
+    <TextView
+        android:id="@+id/vehicle_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maze Runner"
+        android:textSize="18sp"
+        android:textColor="@color/purple_500"
+        android:paddingTop="16dp"
+        style="@style/VehicleNameText" />
+
+    <TextView
+        android:id="@+id/unlock_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unlock_desc_default"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        style="@style/UnlockDescText"/>
+</LinearLayout>

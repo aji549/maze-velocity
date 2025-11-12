@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Maze Velocity</string>
+    <string name="vehicle_select_title">Select Vehicle</string>
+    <string name="unlock_desc_default">Unlocked by default</string>
+    <string name="help_title">Help &amp; Instructions</string>
+    <string name="settings_title">Settings</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="time_label">Time: %1$s</string>
+    <string name="close_button">Close</string>
+    <string name="music_toggle">Music</string>
+    <string name="sfx_toggle">Sound Effects</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="confirm_reset_title">Confirm Reset</string>
+    <string name="confirm_reset_message">Are you sure you want to reset your progress?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="goal_reached">Goal reached!</string>
+    <string name="vehicle_speedster">Speedster</string>
+    <string name="vehicle_chase_master">Chase Master</string>
+    <string name="vehicle_maze_runner">Maze Runner</string>
+</resources>

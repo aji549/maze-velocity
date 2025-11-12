@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Text appearance styles for vehicle selection and overlays -->
+    <style name="HeadingText">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="VehicleNameText">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="UnlockDescText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Overlay text styles -->
+    <style name="OverlayScore">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="OverlayTime">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
