@@ -1,0 +1,9 @@
+<svg width="256" height="128" viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+  <rect x="52" y="56" width="152" height="36" rx="18" fill="#222" stroke="#fff" stroke-width="6"/>
+  <ellipse cx="80" cy="104" rx="16" ry="8" fill="#222"/>
+  <ellipse cx="176" cy="104" rx="16" ry="8" fill="#222"/>
+  <rect x="78" y="66" width="100" height="14" rx="7" fill="#add8e6" opacity="0.6"/>
+  <rect x="140" y="46" width="26" height="6" rx="3" fill="#e01b1b"/>
+  <rect x="90" y="46" width="26" height="6" rx="3" fill="#3172f4"/>
+  <text x="128" y="82" text-anchor="middle" font-size="13" font-family="Arial" fill="#fff">Police</text>
+</svg>
