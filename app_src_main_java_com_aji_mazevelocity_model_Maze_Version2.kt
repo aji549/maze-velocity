@@ -1,5 +1,7 @@
 package com.aji.mazevelocity.model
 
+import com.aji.mazevelocity.controller.Cell
+
 /**
  * Represents the maze grid and logic for generating and accessing cells.
  */
@@ -55,6 +57,6 @@ class Maze(val rows: Int, val cols: Int) {
      * Returns the cell at the given row and col, or null if out of bounds.
      */
     fun getCell(row: Int, col: Int): Cell? {
-        return if (row in 0 until rows && col in 0 until cols) grid[row][col] else null
+        return (if (row in 0 until rows && col in 0 until cols) grid[row][col] else null) as Cell?
     }
 }

@@ -1,7 +1,5 @@
 package com.aji.mazevelocity.controller
 
-import com.aji.mazevelocity.model.MazeGameState
-
 /**
  * Responsible for controlling Maze game state and handling player movement.
  */
@@ -14,15 +12,17 @@ class MazeController(private val gameState: MazeGameState) {
      */
     fun movePlayer(direction: String): Boolean {
         val player = gameState.player
-        val cell = gameState.maze.getCell(player.row, player.col) ?: return false
+        val currentCell = gameState.maze.getCell(player.row, player.col) ?: return false
 
-        val (newRow, newCol) = when (direction) {
-            "up" -> if (!cell.topWall) player.row - 1 to player.col else player.row to player.col
-            "down" -> if (!cell.bottomWall) player.row + 1 to player.col else player.row to player.col
-            "left" -> if (!cell.leftWall) player.row to player.col - 1 else player.row to player.col
-            "right" -> if (!cell.rightWall) player.row to player.col + 1 else player.row to player.col
-            else -> player.row to player.col
-        }
+        val (newRow, newCol) = if (direction == "up") {
+            if (!currentCell.topWall) player.row - 1 to player.col else player.row to player.col
+        } else if (direction == "down") {
+            if (!currentCell.bottomWall) player.row + 1 to player.col else player.row to player.col
+        } else if (direction == "left") {
+            if (!currentCell.leftWall) player.row to player.col - 1 else player.row to player.col
+        } else if (direction == "right") {
+            if (!currentCell.rightWall) player.row to player.col + 1 else player.row to player.col
+        } else player.row to player.col
 
         if (newRow != player.row || newCol != player.col) {
             player.row = newRow
@@ -54,3 +54,15 @@ class MazeController(private val gameState: MazeGameState) {
         return player.row == gameState.maze.rows - 1 && player.col == gameState.maze.cols - 1
     }
 }
+
+/**
+ * Represents a single cell in the maze.
+ */
+data class Cell(
+    val row: Int,
+    val col: Int,
+    var topWall: Boolean = true,
+    var bottomWall: Boolean = true,
+    var leftWall: Boolean = true,
+    var rightWall: Boolean = true
+)

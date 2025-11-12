@@ -1,4 +1,7 @@
-package com.aji.mazevelocity.model
+package com.aji.mazevelocity.controller
+
+import com.aji.mazevelocity.model.Maze
+import com.aji.mazevelocity.model.Player
 
 /**
  * Holds the current game state for a maze session.

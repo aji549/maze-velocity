@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
 import com.aji.mazevelocity.model.Maze
-import com.aji.mazevelocity.model.Cell
+import com.aji.mazevelocity.controller.Cell
 import com.aji.mazevelocity.R
 
 /**
