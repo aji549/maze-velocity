@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="accent">#FFC107</color>
+    <color name="gray_light">#FAFAFA</color>
+    <color name="gray_medium">#C5CAE9</color>
+    <color name="gray_dark">#212121</color>
+    <color name="win_green">#4CAF50</color>
+    <color name="lose_red">#F44336</color>
+    <!-- Add more colors as needed -->
+</resources>

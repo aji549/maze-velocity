@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Maze Velocity</string>
+    <string name="vehicle_select_title">Select Your Vehicle</string>
+    <string name="score_label">Score:</string>
+    <string name="time_label">Time:</string>
+    <string name="game_title">Maze Velocity</string>
+    <string name="instructions_title">How to Play</string>
+    <string name="high_score_label">High Score:</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="play_again">Play Again</string>
+    <string name="win_message">Congratulations! You won!</string>
+    <string name="lose_message">Try Again!</string>
+    <!-- Add other needed strings here -->
+</resources>

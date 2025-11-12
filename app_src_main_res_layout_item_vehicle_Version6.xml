@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vehicle_icon_size"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/vehicle_icon"
+        android:layout_width="@dimen/vehicle_icon_size"
+        android:layout_height="@dimen/vehicle_icon_size"
+        android:contentDescription="@string/vehicle_select_title"
+        android:background="@color/gray_medium"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/vehicle_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/VehicleNameText"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/vehicle_unlock_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/UnlockDescText"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

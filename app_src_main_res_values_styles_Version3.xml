@@ -1,0 +1,37 @@
+<resources>
+    <!-- Main app theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/gray_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- Overlay styling for score and timer -->
+    <style name="OverlayScore">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="OverlayTime">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Vehicle name text appearance -->
+    <style name="VehicleNameText">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Unlock description text appearance -->
+    <style name="UnlockDescText">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

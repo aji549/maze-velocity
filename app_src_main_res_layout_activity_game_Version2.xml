@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Maze Renderer -->
+    <com.aji.mazevelocity.ui.MazeView
+        android:id="@+id/maze_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Overlay: Score and Timer -->
+    <LinearLayout
+        android:id="@+id/game_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/score_overlay_padding"
+        android:gravity="top"
+        android:background="@color/gray_light">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_label"
+            android:textAppearance="@style/OverlayScore"
+            android:paddingEnd="24dp" />
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_label"
+            android:textAppearance="@style/OverlayTime" />
+    </LinearLayout>
+
+    <!-- You can add control buttons or overlays below if needed -->
+</FrameLayout>
