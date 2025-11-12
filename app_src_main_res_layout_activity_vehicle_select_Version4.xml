@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/toggleMode"
+        android:textOn="Vehicle"
+        android:textOff="Character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/vehicle_default"
+            android:src="@drawable/car1"
+            android:tag="vehicle_default"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/vehicle_sport"
+            android:src="@drawable/car2"
+            android:tag="vehicle_sport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/vehicle_chase"
+            android:src="@drawable/car3"
+            android:tag="vehicle_chase"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/vehicle_pursuit"
+            android:src="@drawable/car4"
+            android:tag="vehicle_pursuit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</LinearLayout>
